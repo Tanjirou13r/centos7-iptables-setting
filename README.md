@@ -21,7 +21,7 @@ $ systemctl status iptables
 
 ### iptablesの設定
 ```sh
-$ git clone https://github.com/TanakashiXr/centos7-iptables-setting.git/iptables
+$ git clone https://github.com/TanakashiXr/centos7-iptables-setting.git
 $ mv -f iptables /etc/sysconfig/iptables
 $ iptables -L
 ```
